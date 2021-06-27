@@ -1,0 +1,114 @@
+
+.section-padding{
+    padding: 115px 0;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+
+#slider_caption
+{
+    position: absolute;
+    top: 232px;
+    color: white;
+}
+#slider_caption h3
+{
+text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+}
+#slider_caption h2
+{
+    text-transform: capitalize;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+}
+#services {
+    background-color: #212121;
+    color: #ffffff;
+}
+.icon-side i {
+    font-size: 40px;
+}
+.icon-text p {
+    color: #888888;
+    line-height: 30px;
+}
+.icon-text h4
+{
+    margin-top: 0;
+    font-size: 15px;
+
+}
+.single-services
+{
+    padding: 50px;
+
+}
+#services > div > div > div:nth-child(2) > div
+{
+    border-left: 1px solid #535353;
+    border-right: 1px solid #535353;
+}
+
+
+.blog-text > p {
+    color: #a09292;
+    line-height: 30px;
+}
+.blog-text > h2 {
+    margin-top: 60px;
+}
+
+#our_projects {
+    background-color: #212121;
+    color: #ffffff;
+}
+.section-heading > p {
+    color: #888888;
+    line-height: 30px;
+    padding: 35px 0 50px;
+}
+.single-project figure {
+    background: #ffffff none repeat scroll 0 0;
+    color: #888;
+}
+
+
+
+.single-project figure figcaption {
+    padding: 15px 35px;
+}
+.single-project figure figcaption h5 {
+    color: #000;
+    font-size: 20px;
+}
+
+
+
